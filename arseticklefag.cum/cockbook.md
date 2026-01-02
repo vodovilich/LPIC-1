@@ -1,12 +1,12 @@
-# Install bind
+## Install bind
 
-#Forward zone
+### Forward zone
 
-#Reverse zone
+#### Reverse zone
 
-#named.conf.local
+##### named.conf.local
 
-#named.conf.options
+###### named.conf.options
 
 #Verify 
 - named-checkconf - named configuration file syntax checking tool
