@@ -1,12 +1,29 @@
-## Install bind
-
+### Install bind
+`gandalf@dns-20053-ubnt:~$ sudo apt install bind9 -y`
 ### Forward zone
+```
+gandalf@dns-20053-ubnt:/etc/bind$ sudo vi arseticklefag.cum.forward
+;ORIGIN if not specified - taken from named.conf file
+$ORIGIN arseticklefag.cum.
 
-#### Reverse zone
+$TTL    86400
+@       IN      SOA     dns-20053-ubnt.arseticklefag.cum. huiadmin.arseticklefag.cum. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         86400 )        ; Negative Cache TTL
+;
+@               IN      NS      dns-20053-ubnt.arseticklefag.cum.
 
-##### named.conf.local
+@               IN      A       192.168.200.53
+dns-20053-ubnt  IN      A       192.168.200.53
+```
+### Reverse zone
 
-###### named.conf.options
+### named.conf.local
+
+### named.conf.options
 
 #Verify 
 - named-checkconf - named configuration file syntax checking tool
