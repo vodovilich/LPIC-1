@@ -1,0 +1,10 @@
+zone "arseticklefag.cum" {
+        type master;
+        file "/etc/bind/arseticklefag.cum.forward";
+};
+
+zone "200.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/arseticklefag.cum.200.reverse";
+
+};
