@@ -38,7 +38,7 @@ sudo hostnamectl set-hostname dns-20053-ubnt
 ```
 
 ### APT
-- Comment out the cdrom line
+- Comment out the cdrom line  
 `sudo vi /etc/apt/sources.list`
 
 ### NTP
