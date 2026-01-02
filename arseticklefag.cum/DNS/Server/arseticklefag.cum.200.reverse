@@ -1,0 +1,19 @@
+#/etc/bind/arseticklefag.cum.200.reverse
+$ORIGIN 200.168.192.in-addr.arpa.
+$TTL    86400
+
+@       IN      SOA     dns-20053-ubnt.arseticklefag.cum. huiadmin.arseticklefag.cum. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                          86400 )       ; Negative Cache TTL
+;
+@       IN      NS      dns-20053-ubnt.arseticklefag.cum.
+
+53      IN      PTR     dns-20053-ubnt.arseticklefag.cum.
+20      IN      PTR     ntp-20020-ubnt.arseticklefag.cum.
+30      IN      PTR     logs-20030-ubnt.arseticklefag.cum.
+40      IN      PTR     mail-20020-ubnt.arseticklefag.cum.
+50      IN      PTR     sw-left-20050.arseticklefag.cum.
+60      IN      PTR     sw-right-20060.arseticklefag.cum.
