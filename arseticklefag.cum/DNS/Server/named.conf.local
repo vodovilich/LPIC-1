@@ -1,3 +1,4 @@
+#/etc/bind/named.conf.local
 zone "arseticklefag.cum" {
         type master;
         file "/etc/bind/arseticklefag.cum.forward";
