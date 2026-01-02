@@ -95,7 +95,18 @@ gandalf@dns-20053-ubnt:/etc/bind$ sudo named-checkzone 200.168.192.in-addr.arpa 
 zone 200.168.192.in-addr.arpa/IN: loaded serial 1
 OK
 ```
-#RNDC
+### RNDC
+- rndc included into bind-utils package
+```
+gandalf@dns-20053-ubnt:/etc/bind$ which rndc
+/usr/sbin/rndc
+gandalf@dns-20053-ubnt:/etc/bind$ sudo apt install apt-file -y
+gandalf@dns-20053-ubnt:/etc/bind$ sudo apt-file update
+gandalf@dns-20053-ubnt:/etc/bind$ sudo apt-file search /usr/sbin/rndc
+bind9-utils: /usr/sbin/rndc
+bind9-utils: /usr/sbin/rndc-confgen
+```
+- Updates a zone without restarting the named service
 ```
 $ sudo rndc reconfig
 $ sudo rndc reload atffc.hui
