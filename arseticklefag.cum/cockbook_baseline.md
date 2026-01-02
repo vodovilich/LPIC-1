@@ -14,7 +14,7 @@ network:
 ```
 
 ### NM STATIC IP
-'''
+```
 sudo nmcli con edit ens3
 >print ipv4
 >set ipv4.method manual
@@ -26,7 +26,7 @@ sudo nmcli con edit ens3
 
 sudo nmcli con down ens3
 sudo nmcli con up ens3
-'''
+```
 
 ### DNS
 ```
