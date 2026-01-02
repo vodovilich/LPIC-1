@@ -1,4 +1,4 @@
-#Install bind
+# Install bind
 
 #Forward zone
 
