@@ -2,7 +2,7 @@
 `gandalf@ntp-20020-ubnt:~$ sudo apt install chrony -y`
 
 ### mask systemd-timesyncd on Ubuntu:
-`gandalf@ntp-20020-ubnt:~$ sudo systemctl stop systemd-timesyncd`
+`gandalf@ntp-20020-ubnt:~$ sudo systemctl stop systemd-timesyncd`  
 `gandalf@ntp-20020-ubnt:~$ sudo systemctl mask systemd-timesyncd`
 
 #### If needed - fix the failed masked sysd-unit status:
