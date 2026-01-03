@@ -5,7 +5,7 @@
 `gandalf@ntp-20020-ubnt:~$ sudo systemctl stop systemd-timesyncd`  
 `gandalf@ntp-20020-ubnt:~$ sudo systemctl mask systemd-timesyncd`
 
-#### If needed - fix the failed masked sysd-unit status:
+- If needed - fix the failed masked sysd-unit status:
 `gandalf@ntp-20020-ubnt:~$ sudo systemctl reset-failed systemd-timesyncd`
   
 ### Setup a key:
