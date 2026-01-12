@@ -1,0 +1,5 @@
+# -rw-------. 1 root root 59 Jan 11 20:51 /etc/postfix/sasl_passwd
+# SRCADDRESS@gmail.com - source address from which an email to be sent
+# XXXXYYYYZZZZXXXX - application apssword from GoogleAccount
+
+[smtp.gmail.com]:587 SRCADDRESS@gmail.com:XXXXYYYYZZZZXXXX
