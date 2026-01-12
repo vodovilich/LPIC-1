@@ -1,0 +1,15 @@
+# -rw-r--r--. 1 root root 29896 Jan 11 20:54 /etc/postfix/main.cf
+
+myhostname = mail-20040-rky.arseticklefag.com
+relayhost = [smtp.gmail.com]:587
+# Enable SASL authentication for postfix
+smtp_use_tls = yes                                                                                 
+smtp_sasl_auth_enable = yes   
+smtp_tls_security_level = encrypt
+smtp_tls_CAfile = /etc/ssl/certs/ca-bundle.crt
+
+# Disallow methods that allow anonymous authentication
+smtp_sasl_security_options = noanonymous    
+   
+# Location of sasl_passwd   
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passw
