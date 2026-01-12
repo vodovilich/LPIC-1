@@ -1,4 +1,5 @@
 # -rw-r--r--. 1 root root 29896 Jan 11 20:54 /etc/postfix/main.cf
+#HERE ARE ONLY MANUALLY ADDED LINES, NOT THE ENTIRE CONTENT OF THE FILE!!!!!!!!!!!!!!!!!!!
 
 myhostname = mail-20040-rky.arseticklefag.com
 relayhost = [smtp.gmail.com]:587
